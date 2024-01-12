@@ -5,12 +5,9 @@
 # COMP30019 – Graphics and Interaction 2021 Semester 2
 # Unity Game Project
 
+Final Electronic Submission (project): **4pm, November 1
 
-Final Electronic Submission (project): **4pm, November 1**
-
-Do not forget **One member** of your group must submit a text file to the LMS (Canvas) by the due date which includes the commit ID of your final submission.
-
-You can add a link to your Gameplay Video here but you must have already submit it by **4pm, October 17**
+Link to Gameplay Video: https://www.youtube.com/watch?v=XOElXrq0Yow
 
 
 ## Table of contents
@@ -23,7 +20,6 @@ You can add a link to your Gameplay Video here but you must have already submit 
 
 ## Team Members
 
-| Name           |
 | :------------- |
 | Ryan Campbell |
 | André Hasoon |
@@ -67,8 +63,6 @@ EndGameLayout - displays the end game screen when the player dies with the score
 
 ## Graphics Pipeline and Camera Motion
 
-Someone needs to talk about the graphics pipeline
-
 The camera essentially follows the player movement with an offest which has been predetermined such that the correct portion of the map is exposed at a given time (decided by the team).
 
 ## Procedural Generation
@@ -100,11 +94,6 @@ A rain particle system was implemented to enhance the game's aesthetic. As the p
 A custom made questionnaire was given to 6 participants.
 Evaluation method
 
-**Changes made**
-
-**References**
-
-**Contributions**
 
 ## Technologies
 
