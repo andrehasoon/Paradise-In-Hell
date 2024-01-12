@@ -23,11 +23,12 @@ You can add a link to your Gameplay Video here but you must have already submit 
 
 ## Team Members
 
-| Name |
+| Name           |
+| :------------- |
 | Ryan Campbell |
 | André Hasoon |
-| Mintao Hu |
-| Abhi Patel |
+| Mintao Hu  | 
+| Abhi Patel | 
 
 
 ## Explanation of the game
