@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item PotionHealth
+  - Item PotionMagic
+  - Item PotionAttack
+  - Item PotionDefense
+  - Item RingDexterity
+  - Item RingSpeed
+  - Item RingVitality
+  - Item RingWisdom
+  - Item Level1Wand
+  - Item Level1Spell
+  - Item Level1Robe
+  - Item Level2Wand
+  - Item Level2Spell
+  - Item Level2Robe
+  - Item Level3Wand
+  - Item Level3Spell
+  - Item Level3Robe
+  - Item Level4Wand
+  - Item Level4Spell
+  - Item Level4Robe
+  - Tree
+  - Enemy
+  - PlayerProjectile
+  - SpellProjectile
+  - EnemyProjectile
+  - Item Dexterity
+  - Item Speed
+  - Item Vitality
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
