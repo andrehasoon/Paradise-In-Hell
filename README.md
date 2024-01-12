@@ -19,13 +19,7 @@ Link to Gameplay Video: https://www.youtube.com/watch?v=XOElXrq0Yow
 - [Code Snipets ](#code-snippets)
 
 ## Team Members
-
-| :------------- |
-| Ryan Campbell |
-| André Hasoon |
-| Mintao Hu  | 
-| Abhi Patel | 
-
+Ryan Campbell,André Hasoon, Mintao Hu, Abhi Patel
 
 ## Explanation of the game
 
