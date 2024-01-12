@@ -2,10 +2,9 @@
 
 **The University of Melbourne**
 
-# COMP30019 – Graphics and Interaction
-# 2021 Semester 2 - Unity Game Project
+# COMP30019 – Graphics and Interaction 2021 Semester 2
+# Unity Game Project
 
-Team members: Ryan Campbell, André Hasoon, Mintao Hu & Abhi Patel
 
 Final Electronic Submission (project): **4pm, November 1**
 
@@ -13,37 +12,6 @@ Do not forget **One member** of your group must submit a text file to the LMS (C
 
 You can add a link to your Gameplay Video here but you must have already submit it by **4pm, October 17**
 
-# Project-2 README
-
-You must modify this `README.md` that describes your application, specifically what it does, how to use it, and how you evaluated and improved it.
-
-Remember that _"this document"_ should be `well written` and formatted **appropriately**. This is just an example of different formating tools available for you. For help with the format you can find a guide [here](https://docs.github.com/en/github/writing-on-github).
-
-**Get ready to complete all the tasks:**
-
-- [x] Read the handout for Project-2 carefully.
-
-- [x] Brief explanation of the game.
-
-- [x] How to use it (especially the user interface aspects).
-
-- [x] How you designed objects and entities.
-
-- [x] How you handled the graphics pipeline and camera motion.
-
-- [x] The procedural generation technique and/or algorithm used, including a high level description of the implementation details.
-
-- [ ] Descriptions of how the custom shaders work (and which two should be marked).
-
-- [x] A description of the particle system you wish to be marked and how to locate it in your Unity project.
-
-- [ ] Description of the querying and observational methods used, including a description of the participants (how many, demographics), description of the methodology (which techniques did you use, what did you have participants do, how did you record the data), and feedback gathered.
-
-- [ ] Document the changes made to your game based on the information collected during the evaluation.
-
-- [ ] References and external resources that you used.
-
-- [ ] A description of the contributions made by each member of the group.
 
 ## Table of contents
 
@@ -55,11 +23,12 @@ Remember that _"this document"_ should be `well written` and formatted **appropr
 
 ## Team Members
 
-| Name           |     Task      |    State |
-| :------------- | :-----------: | -------: |
-| Student Name 1 |   MainScene   |     Done |
-| Student Name 2 |    Shader     |  Testing |
-| Student Name 3 | README Format | Amazing! |
+| Name |
+| Ryan Campbell |
+| André Hasoon |
+| Mintao Hu |
+| Abhi Patel |
+
 
 ## Explanation of the game
 
@@ -115,12 +84,11 @@ Using this technique, we were able to achieve tree spawning which would change e
 
 ## Shaders & Particle Systems
 
-**Shader 1**
+**Shader**
 
 The enemy projectile game objects were given a 'fireball' shader as fire is often associated with evil. This shader is called Shader1 and is located in the Materials folder within the Assets folder. The shader incorporates the Phong shader code given in the workshops. This allows the projectiles to be lit more realistically and the shininess present in the Phong lighting model gives the sense that the projectiles are very powerful. The Phong effect is as usual implemented in the pixel shader. The other effect present in this shader is the continuous shift in color between yellow, orange and red, giving the impression of a crackling fire surrounding each projectile. This effect is achieved by using the current game time inside a sine function, and altering the input color in the pixel shader. This effect could also have been implemented in the vertex shader by altering the output color. The advantage of using a shader for this effect is that shaders use a computers GPU, which can operate on multiple data streams continuously. So, in the pixel shader, a good GPU may process as many as 24 pixels at the same time, where an equivalent CPU based approach would only be able to process one at a time.
 
-**Shader 2**
-TODO
+
 
 **Particle System**
 
